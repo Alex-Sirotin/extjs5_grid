@@ -1,4 +1,4 @@
-Ext.define('ExtJS5Grid.view.credit.Credit', {
+Ext.define('ExtJS5Grid.view.credit.CreditGrid', {
     extend: 'Ext.container.Container',
     requires: [
         'ExtJS5Grid.view.credit.CreditController',
@@ -67,11 +67,11 @@ Ext.define('ExtJS5Grid.view.credit.Credit', {
             items: [{
                 icon: '../resources/print.png',
                 tooltip: 'Печать',
-                handler: 'onClickActionButton'
+                handler: 'onPrint'
             }, {
                 icon: '../resources/delete.png',
                 tooltip: 'Удалить',
-                handler: 'onClickActionButton'
+                handler: 'onDelete'
             }]
         }
         ],

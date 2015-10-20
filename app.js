@@ -8,8 +8,7 @@ Ext.application({
 
     extend: 'ExtJS5Grid.Application',
     
-    //autoCreateViewport: 'ExtJS5Grid.view.main.Main'
-    autoCreateViewport: 'ExtJS5Grid.view.credit.Credit'
+    autoCreateViewport: 'ExtJS5Grid.view.credit.CreditGrid'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to ExtJS5Grid.Application. If you need to
